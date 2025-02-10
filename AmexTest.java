@@ -36,10 +36,10 @@ public class AmexTest {
         WebElement demandezCarte = driver.findElement(By.xpath("//a[contains(text(),'Demandez Votre Carte')]") );
         demandezCarte.click();
         
-        driver.findElement(By.id("firstName")).sendKeys("John");
-        driver.findElement(By.id("lastName")).sendKeys("Doe");
-        driver.findElement(By.id("email")).sendKeys("testemail@example.com");
-        driver.findElement(By.id("phoneNumber")).sendKeys("0612345678");
+        driver.findElement(By.id("firstName")).sendKeys("Siva");
+        driver.findElement(By.id("lastName")).sendKeys("Priya");
+        driver.findElement(By.id("email")).sendKeys("testemail@gmail.com");
+        driver.findElement(By.id("phoneNumber")).sendKeys("1234567890");
         
         WebElement continueButton = driver.findElement(By.xpath("//button[contains(text(),'Sauvegarder et Continuer')]") );
         continueButton.click();
